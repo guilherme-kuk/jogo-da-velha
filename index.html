@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Jogo da velha</title>
 </head>
+
 <body>
     <h1>Jogo da Velha</h1>
     <div id="buttons-container">
@@ -14,7 +16,7 @@
         <button id="ai-player">Contra IA</button>
     </div>
     <!-- Campo geral -->
-    <div id="container" class="">
+    <div id="container" class="hide">
         <div class="box" id="block-1"></div>
         <div class="box" id="block-2"></div>
         <div class="box" id="block-3"></div>
@@ -28,11 +30,11 @@
         <div id="scoreboard-container">
             <h2>Placar:</h2>
             <span class="score-box">
-                <span id="x-scoreboard">X</span>: 
+                <span id="x-scoreboard">X</span>:
                 <span id="scoreboard-1">0</span>
             </span>
             <span class="score-box">
-                <span id="o-scoreboard"></span>: 
+                <span id="o-scoreboard"></span>:
                 <span id="scoreboard-2">0</span>
             </span>
         </div>
@@ -46,6 +48,11 @@
     <div id="message" class="hide">
         <p></p>
     </div>
+    <footer>
+        <button id="voltar" class="hide">Voltar</button>
+    </footer>
+
     <script src="./assets/js/scripts.js"></script>
 </body>
+
 </html>
